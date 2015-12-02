@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E4730B1C0F24270084D602 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4730A1C0F24270084D602 /* main.m */; };
+		04E4730E1C0F24270084D602 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4730D1C0F24270084D602 /* AppDelegate.m */; };
+		04E473111C0F24270084D602 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E473101C0F24270084D602 /* FirstViewController.m */; };
+		04E473141C0F24270084D602 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E473131C0F24270084D602 /* SecondViewController.m */; };
+		04E473171C0F24270084D602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E473151C0F24270084D602 /* Main.storyboard */; };
+		04E473191C0F24270084D602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E473181C0F24270084D602 /* Assets.xcassets */; };
+		04E4731C1C0F24270084D602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E4731A1C0F24270084D602 /* LaunchScreen.storyboard */; };
+		04E473271C0F24270084D602 /* cafePocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E473261C0F24270084D602 /* cafePocketTests.m */; };
+		04E473321C0F24270084D602 /* cafePocketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E473311C0F24270084D602 /* cafePocketUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E473231C0F24270084D602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E472FE1C0F24270084D602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E473051C0F24270084D602;
+			remoteInfo = cafePocket;
+		};
+		04E4732E1C0F24270084D602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E472FE1C0F24270084D602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E473051C0F24270084D602;
+			remoteInfo = cafePocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E473061C0F24270084D602 /* cafePocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cafePocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E4730A1C0F24270084D602 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E4730C1C0F24270084D602 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04E4730D1C0F24270084D602 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04E4730F1C0F24270084D602 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		04E473101C0F24270084D602 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		04E473121C0F24270084D602 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		04E473131C0F24270084D602 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		04E473161C0F24270084D602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E473181C0F24270084D602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E4731B1C0F24270084D602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E4731D1C0F24270084D602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E473221C0F24270084D602 /* cafePocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cafePocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E473261C0F24270084D602 /* cafePocketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cafePocketTests.m; sourceTree = "<group>"; };
+		04E473281C0F24270084D602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E4732D1C0F24270084D602 /* cafePocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cafePocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E473311C0F24270084D602 /* cafePocketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cafePocketUITests.m; sourceTree = "<group>"; };
+		04E473331C0F24270084D602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E473031C0F24270084D602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E4731F1C0F24270084D602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E4732A1C0F24270084D602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E472FD1C0F24270084D602 = {
+			isa = PBXGroup;
+			children = (
+				04E473081C0F24270084D602 /* cafePocket */,
+				04E473251C0F24270084D602 /* cafePocketTests */,
+				04E473301C0F24270084D602 /* cafePocketUITests */,
+				04E473071C0F24270084D602 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E473071C0F24270084D602 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E473061C0F24270084D602 /* cafePocket.app */,
+				04E473221C0F24270084D602 /* cafePocketTests.xctest */,
+				04E4732D1C0F24270084D602 /* cafePocketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E473081C0F24270084D602 /* cafePocket */ = {
+			isa = PBXGroup;
+			children = (
+				04E4730C1C0F24270084D602 /* AppDelegate.h */,
+				04E4730D1C0F24270084D602 /* AppDelegate.m */,
+				04E4730F1C0F24270084D602 /* FirstViewController.h */,
+				04E473101C0F24270084D602 /* FirstViewController.m */,
+				04E473121C0F24270084D602 /* SecondViewController.h */,
+				04E473131C0F24270084D602 /* SecondViewController.m */,
+				04E473151C0F24270084D602 /* Main.storyboard */,
+				04E473181C0F24270084D602 /* Assets.xcassets */,
+				04E4731A1C0F24270084D602 /* LaunchScreen.storyboard */,
+				04E4731D1C0F24270084D602 /* Info.plist */,
+				04E473091C0F24270084D602 /* Supporting Files */,
+			);
+			path = cafePocket;
+			sourceTree = "<group>";
+		};
+		04E473091C0F24270084D602 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04E4730A1C0F24270084D602 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E473251C0F24270084D602 /* cafePocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E473261C0F24270084D602 /* cafePocketTests.m */,
+				04E473281C0F24270084D602 /* Info.plist */,
+			);
+			path = cafePocketTests;
+			sourceTree = "<group>";
+		};
+		04E473301C0F24270084D602 /* cafePocketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04E473311C0F24270084D602 /* cafePocketUITests.m */,
+				04E473331C0F24270084D602 /* Info.plist */,
+			);
+			path = cafePocketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E473051C0F24270084D602 /* cafePocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E473361C0F24270084D602 /* Build configuration list for PBXNativeTarget "cafePocket" */;
+			buildPhases = (
+				04E473021C0F24270084D602 /* Sources */,
+				04E473031C0F24270084D602 /* Frameworks */,
+				04E473041C0F24270084D602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cafePocket;
+			productName = cafePocket;
+			productReference = 04E473061C0F24270084D602 /* cafePocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E473211C0F24270084D602 /* cafePocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E473391C0F24270084D602 /* Build configuration list for PBXNativeTarget "cafePocketTests" */;
+			buildPhases = (
+				04E4731E1C0F24270084D602 /* Sources */,
+				04E4731F1C0F24270084D602 /* Frameworks */,
+				04E473201C0F24270084D602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E473241C0F24270084D602 /* PBXTargetDependency */,
+			);
+			name = cafePocketTests;
+			productName = cafePocketTests;
+			productReference = 04E473221C0F24270084D602 /* cafePocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04E4732C1C0F24270084D602 /* cafePocketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E4733C1C0F24270084D602 /* Build configuration list for PBXNativeTarget "cafePocketUITests" */;
+			buildPhases = (
+				04E473291C0F24270084D602 /* Sources */,
+				04E4732A1C0F24270084D602 /* Frameworks */,
+				04E4732B1C0F24270084D602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E4732F1C0F24270084D602 /* PBXTargetDependency */,
+			);
+			name = cafePocketUITests;
+			productName = cafePocketUITests;
+			productReference = 04E4732D1C0F24270084D602 /* cafePocketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E472FE1C0F24270084D602 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = aizawa;
+				TargetAttributes = {
+					04E473051C0F24270084D602 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					04E473211C0F24270084D602 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 04E473051C0F24270084D602;
+					};
+					04E4732C1C0F24270084D602 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 04E473051C0F24270084D602;
+					};
+				};
+			};
+			buildConfigurationList = 04E473011C0F24270084D602 /* Build configuration list for PBXProject "cafePocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E472FD1C0F24270084D602;
+			productRefGroup = 04E473071C0F24270084D602 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E473051C0F24270084D602 /* cafePocket */,
+				04E473211C0F24270084D602 /* cafePocketTests */,
+				04E4732C1C0F24270084D602 /* cafePocketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E473041C0F24270084D602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E4731C1C0F24270084D602 /* LaunchScreen.storyboard in Resources */,
+				04E473191C0F24270084D602 /* Assets.xcassets in Resources */,
+				04E473171C0F24270084D602 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E473201C0F24270084D602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E4732B1C0F24270084D602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E473021C0F24270084D602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E473141C0F24270084D602 /* SecondViewController.m in Sources */,
+				04E4730E1C0F24270084D602 /* AppDelegate.m in Sources */,
+				04E473111C0F24270084D602 /* FirstViewController.m in Sources */,
+				04E4730B1C0F24270084D602 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E4731E1C0F24270084D602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E473271C0F24270084D602 /* cafePocketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E473291C0F24270084D602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E473321C0F24270084D602 /* cafePocketUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E473241C0F24270084D602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E473051C0F24270084D602 /* cafePocket */;
+			targetProxy = 04E473231C0F24270084D602 /* PBXContainerItemProxy */;
+		};
+		04E4732F1C0F24270084D602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E473051C0F24270084D602 /* cafePocket */;
+			targetProxy = 04E4732E1C0F24270084D602 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04E473151C0F24270084D602 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E473161C0F24270084D602 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E4731A1C0F24270084D602 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E4731B1C0F24270084D602 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E473341C0F24270084D602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04E473351C0F24270084D602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E473371C0F24270084D602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cafePocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.jp.zawahiro.cafePocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04E473381C0F24270084D602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cafePocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.jp.zawahiro.cafePocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04E4733A1C0F24270084D602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cafePocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.jp.zawahiro.cafePocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cafePocket.app/cafePocket";
+			};
+			name = Debug;
+		};
+		04E4733B1C0F24270084D602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cafePocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.jp.zawahiro.cafePocketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cafePocket.app/cafePocket";
+			};
+			name = Release;
+		};
+		04E4733D1C0F24270084D602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cafePocketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.jp.zawahiro.cafePocketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cafePocket;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		04E4733E1C0F24270084D602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cafePocketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.jp.zawahiro.cafePocketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cafePocket;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E473011C0F24270084D602 /* Build configuration list for PBXProject "cafePocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E473341C0F24270084D602 /* Debug */,
+				04E473351C0F24270084D602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E473361C0F24270084D602 /* Build configuration list for PBXNativeTarget "cafePocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E473371C0F24270084D602 /* Debug */,
+				04E473381C0F24270084D602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04E473391C0F24270084D602 /* Build configuration list for PBXNativeTarget "cafePocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E4733A1C0F24270084D602 /* Debug */,
+				04E4733B1C0F24270084D602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04E4733C1C0F24270084D602 /* Build configuration list for PBXNativeTarget "cafePocketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E4733D1C0F24270084D602 /* Debug */,
+				04E4733E1C0F24270084D602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E472FE1C0F24270084D602 /* Project object */;
+}
