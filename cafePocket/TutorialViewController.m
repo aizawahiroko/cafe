@@ -37,6 +37,7 @@
     StartBtn.center = CGPointMake([UIScreen mainScreen].bounds.size.width / 2, 300);
     StartBtn.backgroundColor = [UIColor redColor];
     [StartBtn addTarget:self action:@selector(toQR) forControlEvents:UIControlEventTouchUpInside];
+    
     imgv3.userInteractionEnabled = YES;
     baseview.userInteractionEnabled = YES;
     [imgv3 addSubview:StartBtn];
