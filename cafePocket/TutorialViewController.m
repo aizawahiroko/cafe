@@ -43,6 +43,7 @@
     [baseview addSubview:imgv1];
     [baseview addSubview:imgv2];
     [baseview addSubview:imgv3];
+
     [scrollview addSubview:baseview];
     [self.view addSubview:scrollview];
     
