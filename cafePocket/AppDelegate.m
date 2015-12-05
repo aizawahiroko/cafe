@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+// ログイン のヘッダファイルを記述
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,28 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+//    // 起動2回目以降
+//    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"HasLaunchedOnce"]) {
+//        
+//        // ここに2回目以降の処理を書く
+//    } else { // 初回起動時はこっち
+        // UserDefault に一度起動したことを記録
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"HasLaunchedOnce"];
+        [[NSUserDefaults standardUserDefaults] synchronize]; //すぐに更新
+        
+        // チュートリアル画面を表示
+        // Storyboard を呼ぶ
+        UIStoryboard *TutorialSB = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
+        
+        // Storyboard の中のどの ViewContorller を呼ぶか
+        // @""の中は Storyboard IDを記述する
+        LoginViewController* vc = [TutorialSB instantiateViewControllerWithIdentifier: @"LoginViewController"];
+        // その画面を表示させる
+        [self.window setRootViewController:vc];
+        
+//    }
+    
     return YES;
 }
 

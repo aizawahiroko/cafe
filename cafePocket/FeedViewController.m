@@ -1,22 +1,22 @@
 //
-//  FirstViewController.m
+//  FeedViewController.m
 //  cafePocket
 //
 //  Created by zawahiro on 2015/12/02.
 //  Copyright © 2015年 aizawa. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "FeedViewController.h"
 
-@interface FirstViewController ()
+@interface FeedViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation FeedViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
 }
 
 - (void)didReceiveMemoryWarning {

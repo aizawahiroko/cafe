@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  FeedViewController.h
 //  cafePocket
 //
 //  Created by zawahiro on 2015/12/02.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface FeedViewController : UIViewController
 
 
 @end
