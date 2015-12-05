@@ -49,7 +49,7 @@
     [self.view addSubview:scrollview];
     
     btnImgv1 = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 20, 20)];
-    btnImgv1.image = [UIImage imageNamed:@""];
+    btnImgv1.image = [UIImage imageNamed:@"aa"];
     btnImgv2 = [[UIImageView alloc]initWithFrame:CGRectMake(30, 0, 20, 20)];
     btnImgv2.image = [UIImage imageNamed:@""];
     btnImgv3 = [[UIImageView alloc]initWithFrame:CGRectMake(60, 0, 20, 20)];
